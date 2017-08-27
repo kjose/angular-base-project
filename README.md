@@ -1,4 +1,18 @@
-# App
+# Simple base project for building an Angular application
+
+This base project structure comes with JQuery and Semantic UI.
+
+Clone it,
+
+```
+npm install
+```
+
+```
+npm start
+```
+
+## App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 

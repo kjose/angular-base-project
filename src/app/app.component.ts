@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 /**
- * Class Hero
+ * Class Author
  */
-export class Hero {
-    id : number;
-    name : string;
+export class Author {
+    firstname : string;
+    lastname : string;
+    github : string;
 }
 
 /**
@@ -16,11 +17,12 @@ export class Hero {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-// Export component
 export class AppComponent {
-  title = 'Tour of heroes';
-  hero : Hero = {
-      id: 1,
-      name: 'Windstorm'
-  }
+  title = 'Welcome to a base Angular project';
+  subtitle = 'This project comes with JQuery and Semantic UI.';
+  author : Author  = {
+    firstname: 'Kévin',
+    lastname: 'José',
+    github: 'https://github.com/kjose/'
+  };
 }
