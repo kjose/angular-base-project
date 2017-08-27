@@ -62,6 +62,9 @@ module.exports = {
                 "use": [
                     "exports-loader?module.exports.toString()",
                     {
+                        "loader": "style-loader"
+                    },
+                    {
                         "loader": "css-loader",
                         "options": {
                             "sourceMap": false,

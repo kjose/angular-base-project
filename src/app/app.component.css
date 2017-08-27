@@ -1,4 +1,8 @@
-h1 {
+#app_component {
+    padding: 20px;
+}
+
+#app_component h1 {
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
