@@ -1,5 +1,7 @@
 # Simple base project for building an Angular application
 
+![alt text](https://user-images.githubusercontent.com/26057931/29753816-c57c8176-8b79-11e7-8a45-9f41baf93b1b.png)
+
 This base project structure comes with JQuery and Semantic UI.
 
 Clone it,
