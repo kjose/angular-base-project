@@ -13,6 +13,9 @@ module.exports = {
         "modules": [
             "./node_modules"
         ],
+        "alias": {
+            "jquery": path.resolve(process.cwd(), 'src/assets/js/jquery.js')
+        },
         "symlinks": true
     },
     "resolveLoader": {

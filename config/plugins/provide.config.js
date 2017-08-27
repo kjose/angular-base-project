@@ -5,7 +5,7 @@
 const webpack = require('webpack');
 
 module.exports = new webpack.ProvidePlugin({
-    "jQuery" : 'jquery',
-    "jquery" : 'jquery',
-    "$" : 'jquery'
+    jQuery : 'jquery',
+    jquery : 'jquery',
+    $ : 'jquery'
 });
